@@ -312,6 +312,7 @@ img {
 .footer-inner {
     color: var(--bright_text-color);
     background-color: var(--headings-color);
+    padding: 100px 0;
 }
 
 .footer-logo {
