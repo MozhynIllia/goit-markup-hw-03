@@ -17,39 +17,45 @@
     />
   </head>
   <body>
-    <header>
-      <!--Navigation-section-->
-      <nav>
-        <a class="logo" href="./index.html"
-          >Web<span class="logo-accent">Studio</span></a
-        >
-        <ul>
-          <li><a class="nav-link" href="./index.html">Studio</a></li>
-          <li><a class="nav-link" href="">Portfolio</a></li>
-          <li><a class="nav-link" href="">Contacts</a></li>
-        </ul>
-      </nav>
-      <address class="address-section">
-        <ul>
-          <li>
-            <a class="address-link" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a class="address-link" href="tel:+110001111111"
-              >+11 (000) 111-11-11</a
-            >
-          </li>
-        </ul>
-      </address>
+    <!--Navigation-section-->
+    <header class="header">
+      <div class="header-inner container">
+        <nav class="header-menu">
+          <a class="logo" href="./index.html"
+            >Web<span class="logo-accent">Studio</span></a
+          >
+          <ul class="nav-list">
+            <li><a class="nav-link" href="./index.html">Studio</a></li>
+            <li><a class="nav-link" href="">Portfolio</a></li>
+            <li><a class="nav-link" href="">Contacts</a></li>
+          </ul>
+        </nav>
+        <address class="address-section">
+          <ul class="contacts-list">
+            <li>
+              <a class="address-link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a class="address-link" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </header>
+
     <main>
       <!--Hero-section-->
       <section class="hero-section">
-        <h1 class="hero-title">Effective Solutions for Your Business</h1>
-        <button type="button" class="button">Order Service</button>
+        <div class="hero-inner container">
+          <h1 class="hero-title">Effective Solutions for Your Business</h1>
+          <button type="button" class="button">Order Service</button>
+        </div>
       </section>
+
       <!--Features-section-->
       <section>
         <h2 hidden>Our features</h2>
@@ -84,6 +90,7 @@
           </li>
         </ul>
       </section>
+
       <!--Team-section-->
       <section class="team-section">
         <h2 class="section-title">Our Team</h2>
@@ -122,6 +129,7 @@
           </li>
         </ul>
       </section>
+
       <!--Portfolio-section-->
       <section>
         <h2 class="section-title">Our Portfolio</h2>
@@ -183,6 +191,8 @@
         </ul>
       </section>
     </main>
+
+    <!-- Footer-section -->
     <footer class="footer">
       <a class="logo" href="./index.html"
         >Web<span class="footer-logo-accent">Studio</span></a
