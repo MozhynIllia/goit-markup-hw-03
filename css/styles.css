@@ -309,10 +309,15 @@ img {
 
 /*Footer-section*/
 
+.footer {
+    padding: 100px 0;
+    background-color: var(--headings-color);
+}
+
 .footer-inner {
     color: var(--bright_text-color);
     background-color: var(--headings-color);
-    }
+}
 
 .footer-logo {
     display: inline-block;
@@ -336,4 +341,5 @@ img {
     letter-spacing: 0.02em;
     max-width: 264px;
 }
+
 /* End footer*/
