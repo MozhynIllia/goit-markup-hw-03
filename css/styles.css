@@ -21,6 +21,7 @@ a {
 ul {
     list-style-type: none;
     padding: 0;
+    margin: 0;
 }
 
 p,
@@ -286,7 +287,6 @@ img {
     padding: 32px 16px;
     border: 1px solid var(--portfolio-border-color);
     border-top: none;
-    text-align: center;
 }
 
 .portfolio-list-title {
