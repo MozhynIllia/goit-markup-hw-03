@@ -164,12 +164,6 @@ img {
 
 /*Features-section*/
 
-. text p {
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-
-}
-
 .features-section {
     padding: 120px 0;
 }
@@ -205,6 +199,15 @@ img {
     line-height: 1.2;
     letter-spacing: 0.02em;
     margin-bottom: 8px;
+    text-align: center;
+}
+
+.text {
+    color: var(--body-text-color);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     text-align: center;
 }
 
